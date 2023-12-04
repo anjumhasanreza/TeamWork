@@ -82,7 +82,7 @@
 
                                 <div class="col-lg-6">
                                     <div class="p-lg-5 p-4 text-center">
-                                        <lord-icon src="https://cdn.lordicon.com/hzomhqxz.json" trigger="loop"
+                                        <lord-icon src="{{ asset('https://cdn.lordicon.com/hzomhqxz.json') }}" trigger="loop"
                                             colors="primary:#405189,secondary:#08a88a"
                                             style="width:180px;height:180px"></lord-icon>
 

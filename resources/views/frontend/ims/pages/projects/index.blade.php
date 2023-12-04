@@ -51,7 +51,8 @@
                                     <tr>
                                         <th>Sl</th>
                                         <th>Project Name</th>
-                                        <th>Investor</th>
+                                        <th>Privacy</th>
+                                        <th>Status</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -61,8 +62,22 @@
                                         <td>1</td>
                                         <td>RAMK Soft Tech</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
+                                            <div class="live-preview">
+                                                <div class="d-flex flex-wrap gap-2">
+                                                    <!-- <span class="badge rounded-pill bg-primary">Primary</span>
+                                                    <span class="badge rounded-pill bg-secondary">Secondary</span> -->
+                                                    <span class="badge rounded-pill bg-success">Public</span>
+                                                    <!-- <span class="badge rounded-pill bg-info">Info</span>
+                                                    <span class="badge rounded-pill bg-warning">Warning</span>
+                                                    <span class="badge rounded-pill bg-danger">Danger</span>
+                                                    <span class="badge rounded-pill bg-dark">Dark</span>
+                                                    <span class="badge rounded-pill bg-light text-body">Light</span> -->
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            
+                                        <span class="badge rounded-pill bg-success">Active</span>
                                         </td>
                                         <td>
                                             <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
@@ -88,8 +103,22 @@
                                         <td>2</td>
                                         <td>RAMK Design</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
+                                            <div class="live-preview">
+                                                <div class="d-flex flex-wrap gap-2">
+                                                    <!-- <span class="badge rounded-pill bg-primary">Primary</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-secondary">Secondary</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-success">Public</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-info">Info</span> -->
+                                                    <span class="badge rounded-pill bg-warning">Private</span>
+                                                    <!-- <span class="badge rounded-pill bg-danger">Danger</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-dark">Dark</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-light text-body">Light</span> -->
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            
+                                        <span class="badge rounded-pill bg-danger">Inactive</span>
                                         </td>
                                         <td>
                                             <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
@@ -115,8 +144,22 @@
                                         <td>3</td>
                                         <td>RAMK Digital Warld</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
+                                            <div class="live-preview">
+                                                <div class="d-flex flex-wrap gap-2">
+                                                    <!-- <span class="badge rounded-pill bg-primary">Primary</span>
+                                                    <span class="badge rounded-pill bg-secondary">Secondary</span> -->
+                                                    <span class="badge rounded-pill bg-success">Public</span>
+                                                    <!-- <span class="badge rounded-pill bg-info">Info</span>
+                                                    <span class="badge rounded-pill bg-warning">Warning</span>
+                                                    <span class="badge rounded-pill bg-danger">Danger</span>
+                                                    <span class="badge rounded-pill bg-dark">Dark</span>
+                                                    <span class="badge rounded-pill bg-light text-body">Light</span> -->
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            
+                                        <span class="badge rounded-pill bg-success">Active</span>
                                         </td>
                                         <td>
                                             <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
@@ -142,8 +185,22 @@
                                         <td>4</td>
                                         <td>RAMK Village</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
+                                            <div class="live-preview">
+                                                <div class="d-flex flex-wrap gap-2">
+                                                    <!-- <span class="badge rounded-pill bg-primary">Primary</span>
+                                                    <span class="badge rounded-pill bg-secondary">Secondary</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-success">Public</span> -->
+                                                    <span class="badge rounded-pill bg-info">Team</span>
+                                                    <!-- <span class="badge rounded-pill bg-warning">Warning</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-danger">Danger</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-dark">Dark</span> -->
+                                                    <!-- <span class="badge rounded-pill bg-light text-body">Light</span> -->
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            
+                                        <span class="badge rounded-pill bg-success">Active</span>
                                         </td>
                                         <td>
                                             <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
@@ -169,8 +226,22 @@
                                         <td>5</td>
                                         <td>RAMK</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
+                                            <div class="live-preview">
+                                                <div class="d-flex flex-wrap gap-2">
+                                                    <!-- <span class="badge rounded-pill bg-primary">Primary</span>
+                                                    <span class="badge rounded-pill bg-secondary">Secondary</span> -->
+                                                    <span class="badge rounded-pill bg-success">Public</span>
+                                                    <!-- <span class="badge rounded-pill bg-info">Info</span>
+                                                    <span class="badge rounded-pill bg-warning">Warning</span>
+                                                    <span class="badge rounded-pill bg-danger">Danger</span>
+                                                    <span class="badge rounded-pill bg-dark">Dark</span>
+                                                    <span class="badge rounded-pill bg-light text-body">Light</span> -->
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            
+                                        <span class="badge rounded-pill bg-danger">Inactive</span>
                                         </td>
                                         <td>
                                             <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">

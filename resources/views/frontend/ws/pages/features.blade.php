@@ -1,5 +1,7 @@
 <section class="section bg-light py-5" id="features">
     <div class="container">
+        <h3>Features</h3>
+
         <div class="row align-items-center gy-4">
             <div class="col-lg-6 col-sm-7 mx-auto">
                 <div>

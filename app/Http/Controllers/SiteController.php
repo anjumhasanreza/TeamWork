@@ -39,5 +39,9 @@ class SiteController extends Controller
         return view ("frontend.ws.auths.success_message");
     }
 
+    public function twostep_verification(){
+        return view ("frontend.ws.auths.twostep_verification");
+    }
+
     
 }

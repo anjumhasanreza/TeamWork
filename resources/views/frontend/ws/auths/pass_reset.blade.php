@@ -36,11 +36,8 @@
                                         <div class="bg-overlay"></div>
                                         <div class="position-relative h-100 d-flex flex-column">
 
-
-
                                             <!-- Logo  -->
                                             @include('frontend.ws.auths.auth_logo')
-
 
                                             <div class="mt-auto">
                                                 <div class="mb-3">
@@ -86,7 +83,7 @@
                                         <p class="text-muted">Reset password with velzon</p>
 
                                         <div class="mt-2 text-center">
-                                            <lord-icon src="https://cdn.lordicon.com/rhvddzym.json" trigger="loop"
+                                            <lord-icon src="{{ asset('https://cdn.lordicon.com/rhvddzym.json') }}" trigger="loop"
                                                 colors="primary:#0ab39c" class="avatar-xl">
                                             </lord-icon>
                                         </div>

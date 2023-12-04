@@ -28,6 +28,7 @@ Route::get('/signup',[SiteController::class,'signUp']);
 Route::get('/lockscreen',[SiteController::class,'lockScreen']);
 Route::get('/logout',[SiteController::class,'logout']);
 Route::get('/login/successfull',[SiteController::class,'successfull']);
+Route::get('/twosetpverification',[SiteController::class,'twostep_verification']);
 
 
 
@@ -45,6 +46,8 @@ use App\Http\Controllers\BranchController;
 
 Route::get('/branch/index',[BranchController::class,'index']);
 Route::get('/branch/create',[BranchController::class,'create']);
+Route::get('/branch/edit',[BranchController::class,'edit']);
+Route::get('/branch/view',[BranchController::class,'view']);
 
 
 

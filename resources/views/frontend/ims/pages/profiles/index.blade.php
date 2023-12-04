@@ -15,12 +15,14 @@
             </div>
             <div class="pt-4 mb-4 mb-lg-3 pb-lg-4 profile-wrapper">
                 <div class="row g-4">
+                    
                     <div class="col-auto">
                         <div class="avatar-lg">
                             <img src="{{ asset('assets/images/reza.jpg') }}" alt="user-img"
                                 class="img-thumbnail rounded-circle" />
                         </div>
                     </div>
+
                     <!--end col-->
                     <div class="col">
                         <div class="p-2">
@@ -28,11 +30,11 @@
                             <p class="text-white text-opacity-75">Owner & Founder</p>
                             <div class="hstack text-white-50 gap-1">
                                 <div class="me-2"><i
-                                        class="ri-map-pin-user-line me-1 text-white text-opacity-75 fs-16 align-middle"></i>California,
-                                    United States</div>
+                                        class="ri-map-pin-user-line me-1 text-white text-opacity-75 fs-16 align-middle"></i>
+                                        California, United States</div>
                                 <div>
-                                    <i
-                                        class="ri-building-line me-1 text-white text-opacity-75 fs-16 align-middle"></i>Themesbrand
+                                    <i class="ri-building-line me-1 text-white text-opacity-75 fs-16 align-middle"></i> 
+                                    Themesbrand
                                 </div>
                             </div>
                         </div>

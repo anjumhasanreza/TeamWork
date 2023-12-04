@@ -87,7 +87,7 @@
 
                                         <div class="p-2">
                                             <form
-                                                action="https://themesbrand.com/velzon/html/default/auth-signin-basic.html">
+                                                action="{{ asset('https://themesbrand.com/velzon/html/default/auth-signin-basic.html') }}">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="password-input">Password</label>
                                                     <div class="position-relative auth-pass-inputgroup">

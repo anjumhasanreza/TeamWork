@@ -1,5 +1,5 @@
 @extends('frontend.ims.layouts.app')
-@section('title','IMS | Project View')
+@section('title','IMS | Brabch View')
 
 
 @section('content')

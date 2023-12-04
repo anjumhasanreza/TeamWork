@@ -137,7 +137,6 @@
     @include('frontend.ws.components.javaScript')
 
 
-
 </body>
 
 

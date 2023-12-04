@@ -13,4 +13,12 @@ class BranchController extends Controller
     public function create(){
         return view ("frontend.ims.pages.branches.create");
     }
+
+    public function edit(){
+        return view ("frontend.ims.pages.branches.edit");
+    }
+
+    public function view(){
+        return view ("frontend.ims.pages.branches.view");
+    }
 }
