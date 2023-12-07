@@ -18,7 +18,7 @@
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Projects</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Office</a></li>
                                 <li class="breadcrumb-item active">Edit Project</li>
                             </ol>
                         </div>
@@ -35,7 +35,7 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 ">
                                     <!-- <div class="mb-3"> -->
-                                    <label class="form-label" for="project-title-input">Project Title</label>
+                                    <label class="form-label" for="project-title-input">Project Title <span class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="project-title-input"
                                         placeholder="Enter project title">
                                 </div>
@@ -48,23 +48,10 @@
                                 </div>
                             </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">Project Description</label>
-                                <div id="ckeditor-classic">
-                                    <p>It will be as simple as occidental in fact, it will be Occidental. To an
-                                        English
-                                        person, it will seem like simplified English, as a skeptical Cambridge
-                                        friend of
-                                        mine told me what Occidental is. The European languages are members of the
-                                        same
-                                        family. Their separate existence is a myth. For science, music, sport, etc,
-                                        Europe uses the same vocabulary.</p>
-                                    <ul>
-                                        <li>Product Design, Figma (Software), Prototype</li>
-                                        <li>Four Dashboards : Ecommerce, Analytics, Project etc.</li>
-                                        <li>Create calendar, chat and email app pages.</li>
-                                        <li>Add authentication pages</li>
-                                    </ul>
+                            <div class="col-lg-12 mb-3 ">
+                                <div class="mb-lg-0">
+                                    <label for="projectDescriptionTextarea" class="form-label">Project's Description</label>
+                                    <textarea class="form-control" id="projectDescriptionTextarea" rows="4"></textarea>
                                 </div>
                             </div>
 
@@ -85,7 +72,7 @@
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="mobileInput" class="form-label">Mobile</label>
+                                        <label for="mobileInput" class="form-label">Mobile <span class="text-danger">*</span></label>
                                         <input type="text" class="form-control" id="mobileInput"
                                             placeholder="Enter project's mobile">
                                         <!-- <label for="datepicker-deadline-input" class="form-label">Deadline</label>
@@ -96,7 +83,7 @@
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="emailInput" class="form-label">Email</label>
+                                        <label for="emailInput" class="form-label">Email <span class="text-danger">*</span></label>
                                         <input type="text" class="form-control" id="emailInput"
                                             placeholder="Enter project's email">
                                         <!-- <label for="datepicker-deadline-input" class="form-label">Deadline</label>
@@ -107,7 +94,7 @@
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="addressTextarea" class="form-label">Address</label>
+                                        <label for="addressTextarea" class="form-label">Address <span class="text-danger">*</span></label>
                                         <textarea class="form-control" id="addressTextarea" rows="1"></textarea>
                                     </div>
                                 </div>
@@ -115,7 +102,7 @@
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="choices-subdistrict-input" class="form-label">Subdistrict</label>
+                                        <label for="choices-subdistrict-input" class="form-label">Subdistrict <span class="text-danger">*</span></label>
                                         <select class="form-select" data-choices data-choices-search-false
                                             id="choices-subdistrict-input">
                                             <option value="Please Select Subdistrict" selected>Please Select
@@ -129,7 +116,7 @@
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="choices-district-input" class="form-label">District</label>
+                                        <label for="choices-district-input" class="form-label">District <span class="text-danger">*</span></label>
                                         <select class="form-select" data-choices data-choices-search-false
                                             id="choices-district-input">
                                             <option value="Please Select District" selected>Please Select District
@@ -142,7 +129,7 @@
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="choices-division-input" class="form-label">Division</label>
+                                        <label for="choices-division-input" class="form-label">Division <span class="text-danger">*</span></label>
                                         <select class="form-select" data-choices data-choices-search-false
                                             id="choices-division-input">
                                             <option value="Please Select Division" selected>Please Select Division
@@ -156,7 +143,7 @@
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="choices-privecy-input" class="form-label">Privecy</label>
+                                        <label for="choices-privecy-input" class="form-label">Privecy <span class="text-danger">*</span></label>
                                         <select class="form-select" data-choices data-choices-search-false
                                             id="choices-privecy-input">
                                             <option value="Private" selected>Private</option>
@@ -169,7 +156,7 @@
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="choices-status-input" class="form-label">Status</label>
+                                        <label for="choices-status-input" class="form-label">Status <span class="text-danger">*</span></label>
                                         <select class="form-select" data-choices data-choices-search-false
                                             id="choices-status-input">
                                             <option value="Active" selected>Active</option>
@@ -195,9 +182,9 @@
                         <button type="submit" class="btn btn-success w-sm">Update</button>
                         <button type="reset" onclick="history.back()" class="btn btn-danger w-sm">Back</button>
                     </div>
+                    
+                    
                 </div>
-
-
             </div>
             <!-- end row -->
 

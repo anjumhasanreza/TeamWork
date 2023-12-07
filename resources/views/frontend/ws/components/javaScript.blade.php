@@ -69,6 +69,13 @@
 <script src="{{ asset('assets/js/pages/project-create.init.js') }}"></script>
 
 
+<script>
+    function openWithNewTabProfile() {
+        window.open("{{ asset('/profile') }}");
+    }
+</script>
+
+
 
 
 
@@ -124,4 +131,3 @@
         });
     });
 </script>
-

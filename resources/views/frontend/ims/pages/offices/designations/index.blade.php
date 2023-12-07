@@ -1,5 +1,5 @@
 @extends('frontend.ims.layouts.app')
-@section('title','IMS | List of Branches')
+@section('title','IMS | List of Designations')
 
 
 @section('content')
@@ -13,12 +13,12 @@
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                        <h4 class="mb-sm-0">Branches</h4>
+                        <h4 class="mb-sm-0">Designations</h4>
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="javascript: void(0);">Office</a></li>
-                                <li class="breadcrumb-item active">Branches</li>
+                                <li class="breadcrumb-item active">Designations</li>
                             </ol>
                         </div>
 
@@ -36,9 +36,9 @@
                             <div class="row g-4">
                                 <div class="col-sm-auto">
                                     <div>
-                                        <a href="{{ asset('/branch/create') }}" class="btn btn-success"
+                                        <a href="{{ asset('/designation/create') }}" class="btn btn-success"
                                             id="addproduct-btn"><i class="ri-add-line align-bottom me-1"></i> Create
-                                            Branches</a>
+                                            Designations</a>
                                     </div>
                                 </div>
 
@@ -50,8 +50,8 @@
                                 <thead>
                                     <tr>
                                         <th>Sl</th>
-                                        <th>Project Name</th>
-                                        <th>Investor</th>
+                                        <th>Designation Title</th>
+                                        <th>Designation's Description</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -59,18 +59,10 @@
 
                                     <tr>
                                         <td>1</td>
-                                        <td>RAMK Soft Tech</td>
+                                        <td>CEO</td>
+                                        <td>Cheif Executive Officer</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
-                                        </td>
-                                        <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/branch/view')}}">
-                                                <i class="fas fa-folder">
-                                                </i>
-                                                View
-                                            </a>
-                                            <a class="btn btn-info btn-sm" href="{{asset('/branch/edit')}}">
+                                            <a class="btn btn-info btn-sm" href="{{asset('/designation/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
                                                 Edit
@@ -85,19 +77,11 @@
 
 
                                     <tr>
-                                        <td>2</td>
-                                        <td>RAMK Design</td>
+                                        <td>1</td>
+                                        <td>CEO</td>
+                                        <td>Cheif Executive Officer</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
-                                        </td>
-                                        <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/branch/view')}}">
-                                                <i class="fas fa-folder">
-                                                </i>
-                                                View
-                                            </a>
-                                            <a class="btn btn-info btn-sm" href="{{asset('/branch/edit')}}">
+                                            <a class="btn btn-info btn-sm" href="{{asset('/designation/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
                                                 Edit
@@ -112,19 +96,11 @@
 
 
                                     <tr>
-                                        <td>3</td>
-                                        <td>RAMK Digital Warld</td>
+                                        <td>1</td>
+                                        <td>CEO</td>
+                                        <td>Cheif Executive Officer</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
-                                        </td>
-                                        <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/branch/view')}}">
-                                                <i class="fas fa-folder">
-                                                </i>
-                                                View
-                                            </a>
-                                            <a class="btn btn-info btn-sm" href="{{asset('/branch/edit')}}">
+                                            <a class="btn btn-info btn-sm" href="{{asset('/designation/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
                                                 Edit
@@ -139,19 +115,11 @@
 
 
                                     <tr>
-                                        <td>4</td>
-                                        <td>RAMK Village</td>
+                                        <td>1</td>
+                                        <td>CEO</td>
+                                        <td>Cheif Executive Officer</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
-                                        </td>
-                                        <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/branch/view')}}">
-                                                <i class="fas fa-folder">
-                                                </i>
-                                                View
-                                            </a>
-                                            <a class="btn btn-info btn-sm" href="{{asset('/branch/edit')}}">
+                                            <a class="btn btn-info btn-sm" href="{{asset('/designation/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
                                                 Edit
@@ -166,19 +134,11 @@
 
 
                                     <tr>
-                                        <td>5</td>
-                                        <td>RAMK</td>
+                                        <td>1</td>
+                                        <td>CEO</td>
+                                        <td>Cheif Executive Officer</td>
                                         <td>
-                                            <li>A Hasan Reza</li>
-                                            <li>Takbir Hasan Raif</li>
-                                        </td>
-                                        <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/branch/view')}}">
-                                                <i class="fas fa-folder">
-                                                </i>
-                                                View
-                                            </a>
-                                            <a class="btn btn-info btn-sm" href="{{asset('/branch/edit')}}">
+                                            <a class="btn btn-info btn-sm" href="{{asset('/designation/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
                                                 Edit
@@ -213,7 +173,6 @@
         </div>
         <!-- container-fluid -->
     </div>
-
 
     @include('frontend.ims.layouts.footer')
 </div>

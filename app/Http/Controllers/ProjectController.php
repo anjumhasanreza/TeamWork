@@ -7,18 +7,18 @@ use Illuminate\Http\Request;
 class ProjectController extends Controller
 {
     public function index(){
-        return view ("frontend.ims.pages.projects.index");
+        return view ("frontend.ims.pages.offices.projects.index");
     }
 
     public function create(){
-        return view ("frontend.ims.pages.projects.create");
+        return view ("frontend.ims.pages.offices.projects.create");
     }
 
     public function edit(){
-        return view ("frontend.ims.pages.projects.edit");
+        return view ("frontend.ims.pages.offices.projects.edit");
     }
 
     public function view(){
-        return view ("frontend.ims.pages.projects.view");
+        return view ("frontend.ims.pages.offices.projects.view");
     }
 }

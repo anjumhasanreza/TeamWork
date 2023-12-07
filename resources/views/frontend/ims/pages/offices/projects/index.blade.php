@@ -76,15 +76,14 @@
                                             </div>
                                         </td>
                                         <td>
-                                            
-                                        <span class="badge rounded-pill bg-success">Active</span>
+                                            <span class="badge rounded-pill bg-success">Active</span>
                                         </td>
                                         <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
+                                            <!-- <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
                                                 <i class="fas fa-folder">
                                                 </i>
                                                 View
-                                            </a>
+                                            </a> -->
                                             <a class="btn btn-info btn-sm" href="{{asset('/project/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
@@ -117,15 +116,15 @@
                                             </div>
                                         </td>
                                         <td>
-                                            
-                                        <span class="badge rounded-pill bg-danger">Inactive</span>
+
+                                            <span class="badge rounded-pill bg-danger">Inactive</span>
                                         </td>
                                         <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
+                                            <!-- <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
                                                 <i class="fas fa-folder">
                                                 </i>
                                                 View
-                                            </a>
+                                            </a> -->
                                             <a class="btn btn-info btn-sm" href="{{asset('/project/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
@@ -158,15 +157,15 @@
                                             </div>
                                         </td>
                                         <td>
-                                            
-                                        <span class="badge rounded-pill bg-success">Active</span>
+
+                                            <span class="badge rounded-pill bg-success">Active</span>
                                         </td>
                                         <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
+                                            <!-- <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
                                                 <i class="fas fa-folder">
                                                 </i>
                                                 View
-                                            </a>
+                                            </a> -->
                                             <a class="btn btn-info btn-sm" href="{{asset('/project/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
@@ -199,15 +198,15 @@
                                             </div>
                                         </td>
                                         <td>
-                                            
-                                        <span class="badge rounded-pill bg-success">Active</span>
+
+                                            <span class="badge rounded-pill bg-success">Active</span>
                                         </td>
                                         <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
+                                            <!-- <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
                                                 <i class="fas fa-folder">
                                                 </i>
                                                 View
-                                            </a>
+                                            </a> -->
                                             <a class="btn btn-info btn-sm" href="{{asset('/project/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
@@ -240,15 +239,15 @@
                                             </div>
                                         </td>
                                         <td>
-                                            
-                                        <span class="badge rounded-pill bg-danger">Inactive</span>
+
+                                            <span class="badge rounded-pill bg-danger">Inactive</span>
                                         </td>
                                         <td>
-                                            <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
+                                            <!-- <a class="btn btn-primary btn-sm" href="{{asset('/project/view')}}">
                                                 <i class="fas fa-folder">
                                                 </i>
                                                 View
-                                            </a>
+                                            </a> -->
                                             <a class="btn btn-info btn-sm" href="{{asset('/project/edit')}}">
                                                 <i class="fas fa-pencil-alt">
                                                 </i>
