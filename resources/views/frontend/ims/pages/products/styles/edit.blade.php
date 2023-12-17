@@ -35,10 +35,10 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 ">
                                     <!-- <div class="mb-3"> -->
-                                    <label class="form-label" for="style-title-input">Style Name <span
+                                    <label class="form-label" for="style-title-input">Style Title <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="style-title-input"
-                                        placeholder="Enter style Name">
+                                        placeholder="Enter style title">
                                 </div>
 
                                 <div class="col-lg-6 mb-3 ">

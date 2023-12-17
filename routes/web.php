@@ -137,6 +137,14 @@ Route::get('/uom/create',[UomController::class,'create']);
 Route::get('/uom/edit',[UomController::class,'edit']);
 Route::get('/uom/view',[UomController::class,'view']);
 
+
+use App\Http\Controllers\ProductController;
+
+Route::get('/product/index',[ProductController::class,'index']);
+Route::get('/product/create',[ProductController::class,'create']);
+Route::get('/product/edit',[ProductController::class,'edit']);
+Route::get('/product/view',[ProductController::class,'view']);
+
 // Product End 
 
 // Contact Start 

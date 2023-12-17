@@ -50,7 +50,7 @@
                                 <thead>
                                     <tr>
                                         <th>Sl</th>
-                                        <th>Size Name</th>
+                                        <th>Size Title</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
                                         <th>Status</th>

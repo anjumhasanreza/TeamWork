@@ -50,7 +50,7 @@
                                 <thead>
                                     <tr>
                                         <th>Sl</th>
-                                        <th>Categorie Name</th>
+                                        <th>Categorie Title</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
                                         <th>Status</th>

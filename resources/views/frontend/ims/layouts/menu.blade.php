@@ -183,6 +183,25 @@
                     </a>
                     <div class="collapse menu-dropdown" id="sidebarProducts">
                         <ul class="nav nav-sm flex-column">
+                        <li class="nav-item">
+                                <a href="#sidebarproducts" class="nav-link" data-bs-toggle="collapse" role="button"
+                                    aria-expanded="false" aria-controls="sidebarproducts" data-key="t-groups">
+                                    Products
+                                </a>
+                                <div class="collapse menu-dropdown" id="sidebarproducts">
+                                    <ul class="nav nav-sm flex-column">
+                                        <li class="nav-item">
+                                            <a href="{{ asset('/product/index') }}" class="nav-link" data-key="t-list">
+                                                List
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="{{ asset('/product/create')}}" class="nav-link"
+                                                data-key="t-add"> Add Product </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li class="nav-item">
                                 <a href="#sidebarGroups" class="nav-link" data-bs-toggle="collapse" role="button"
                                     aria-expanded="false" aria-controls="sidebarGroups" data-key="t-groups">

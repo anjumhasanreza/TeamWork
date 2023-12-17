@@ -131,3 +131,27 @@
         });
     });
 </script>
+
+
+
+
+<!-- Customer Page Start -->
+
+<!-- list.js min js -->
+<script src="{{ asset('assets/libs/list.js/list.min.js') }}"></script>
+<script src="{{ asset('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
+
+<!--ecommerce-customer init js -->
+<script src="{{ asset('assets/js/pages/ecommerce-customer-list.init.js') }}"></script>
+
+<!-- Sweet Alerts js -->
+<script src="{{ asset('assets/libs/sweetalert2/sweetalert2.min.js') }}"></script>
+
+<!-- Customer Page End  -->
+
+
+<!--list pagination js-->
+<script src="{{ asset('assets/libs/list.pagination.js/list.pagination.min.js') }}"></script>
+
+<!-- ecommerce-order init js -->
+<script src="{{ asset('assets/js/pages/ecommerce-order.init.js') }}"></script>

@@ -50,7 +50,7 @@
                                 <thead>
                                     <tr>
                                         <th>Sl</th>
-                                        <th>UOM Name</th>
+                                        <th>UOM Title</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
                                         <th>Status</th>

@@ -50,7 +50,7 @@
                                 <thead>
                                     <tr>
                                         <th>Sl</th>
-                                        <th>Style Name</th>
+                                        <th>Style Title</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
                                         <th>Status</th>

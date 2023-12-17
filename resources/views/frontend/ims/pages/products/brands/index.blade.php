@@ -50,7 +50,7 @@
                                 <thead>
                                     <tr>
                                         <th>Sl</th>
-                                        <th>Brand Name</th>
+                                        <th>Brand Title</th>
                                         <th>Description</th>
                                         <th>Remarks</th>
                                         <th>Status</th>

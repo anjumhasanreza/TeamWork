@@ -8,6 +8,10 @@
 <link href="{{ asset('assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css" />
 
 
+<!-- Sweet Alert css-->
+<link href="{{ asset('assets/libs/sweetalert2/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
+
+
 <!-- Layout config Js -->
 <script src="{{ asset('assets/js/layout.js') }}"></script>
 <!-- Bootstrap Css -->

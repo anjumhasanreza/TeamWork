@@ -35,10 +35,10 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 ">
                                     <!-- <div class="mb-3"> -->
-                                    <label class="form-label" for="size-title-input">Size Name <span
+                                    <label class="form-label" for="size-title-input">Size Title <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="size-title-input"
-                                        placeholder="Enter size Name">
+                                        placeholder="Enter size title">
                                 </div>
 
                                 <div class="col-lg-6 mb-3 ">

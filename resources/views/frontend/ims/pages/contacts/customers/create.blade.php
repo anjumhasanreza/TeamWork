@@ -48,26 +48,32 @@
                                 </div>
 
                                 <div class="col-lg-6 mb-3 ">
-                                    <label class="form-label" for="mobile-input">Mobile</label>
+                                    <label class="form-label" for="job-title-input">Job Title <small class="text-success">Contact Person</small></label>
+                                    <input type="text" class="form-control" id="job-title-input"
+                                        placeholder="Enter job title">
+                                </div>
+
+                                <div class="col-lg-6 mb-3 ">
+                                    <label class="form-label" for="mobile-input">Mobile <small class="text-success">Contact Person</small></label>
                                     <input type="text" class="form-control" id="mobile-input"
                                         placeholder="Enter Mobile number">
                                 </div>
 
                                 <div class="col-lg-6 mb-3 ">
-                                    <label class="form-label" for="email-input">Email</label>
+                                    <label class="form-label" for="email-input">Email <small class="text-success">Contact Person</small></label>
                                     <input type="text" class="form-control" id="email-input"
                                         placeholder="Enter email address">
                                 </div>
 
                                 <div class="col-lg-6 mb-3 ">
-                                    <label class="form-label" for="opening-balance-input">Opening Balance</label>
+                                    <label class="form-label" for="opening-balance-input">Opening Balance <small class="text-success">Customer Company</small></label>
                                     <input type="text" class="form-control" id="opening-balance-input"
                                         placeholder="Enter opening balance">
                                 </div>
 
                                 <div class="col-lg-6 mb-3 ">
                                     <div class="mb-lg-0">
-                                        <label for="addressTextarea" class="form-label">Address <span class="text-danger">*</span></label>
+                                        <label for="addressTextarea" class="form-label">Address <span class="text-danger">*</span> <small class="text-success">Customer Company</small></label>
                                         <textarea class="form-control" id="addressTextarea" rows="1"></textarea>
                                     </div>
                                 </div>

@@ -35,10 +35,10 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 ">
                                     <!-- <div class="mb-3"> -->
-                                    <label class="form-label" for="brand-title-input">Brand Name <span
+                                    <label class="form-label" for="brand-title-input">Brand Title <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="brand-title-input"
-                                        placeholder="Enter brand Name">
+                                        placeholder="Enter brand title">
                                 </div>
 
                                 <div class="col-lg-6 mb-3 ">

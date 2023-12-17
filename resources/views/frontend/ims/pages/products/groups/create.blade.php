@@ -35,7 +35,7 @@
                             <div class="row">
                                 <div class="col-lg-6 mb-3 ">
                                     <!-- <div class="mb-3"> -->
-                                    <label class="form-label" for="group-title-input">Group Name <span
+                                    <label class="form-label" for="group-title-input">Group Title <span
                                             class="text-danger">*</span></label>
                                     <input type="text" class="form-control" id="group-title-input"
                                         placeholder="Enter group title">
